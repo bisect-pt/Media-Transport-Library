@@ -28,7 +28,7 @@ pub enum PmdType {
     /// DPDK with AF_PACKET PMD.
     DpdkAfPacket,
     /// Kernel-based socket for standard packet processing.
-    KernelSocket,
+    KernelSocket = 17,
     /// AF_XDP (express data path) for high-performance packet processing without DPDK.
     AfXdp,
 }
